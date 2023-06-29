@@ -1,0 +1,7 @@
+services:
+  node:
+    container_name: backend
+    build: .
+    ports:
+      - "3000:3000"
+    
